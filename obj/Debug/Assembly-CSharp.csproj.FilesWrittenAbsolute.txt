@@ -1,0 +1,17 @@
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/connie/Desktop/Bobo Reef/obj/Debug/Assembly-CSharp.dll
+/Users/connie/Desktop/Bobo Reef/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/UnityEngine.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/UnityEditor.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Mono.Cecil.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Unity.DataContract.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/connie/Desktop/Bobo Reef/Temp/bin/Debug/Mono.Cecil.Mdb.dll

@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 90dd456c6a851410ba58f0c927d0cdca
+timeCreated: 1469237888
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pufferfish spritesheet_0
+    21300002: pufferfish spritesheet_1
+    21300004: pufferfish spritesheet_2
+    21300006: pufferfish spritesheet_3
+    21300008: pufferfish spritesheet_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pufferfish spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4400
+        width: 1000
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.51, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.28, y: 87.16797}
+        - {x: 21.279999, y: 95.16797}
+        - {x: 14.279999, y: 96.16797}
+        - {x: -7.720001, y: 96.16797}
+        - {x: -13.720001, y: 95.16797}
+        - {x: -26.720001, y: 92.16797}
+        - {x: -42.72, y: 81.16797}
+        - {x: -83.72, y: 66.16797}
+        - {x: -85.72, y: 61.16797}
+        - {x: -85.72, y: -20.832031}
+        - {x: -56.72, y: -49.83203}
+        - {x: 22.279999, y: -49.83203}
+        - {x: 88.28, y: -19.832031}
+        - {x: 89.28, y: -8.832031}
+        - {x: 89.28, y: 62.16797}
+    - name: pufferfish spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3300
+        width: 1000
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.517, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.324005, y: 94.967896}
+        - {x: -86.324005, y: 56.967896}
+        - {x: -86.324005, y: -24.032104}
+        - {x: -62.324005, y: -52.032104}
+        - {x: 39.675995, y: -52.032104}
+        - {x: 88.675995, y: -31.032104}
+        - {x: 88.675995, y: 79.967896}
+        - {x: 50.675995, y: 94.967896}
+    - name: pufferfish spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 1000
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.51, y: 0.467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.28, y: -18.096436}
+        - {x: 122.28, y: 69.903564}
+        - {x: 117.28, y: 90.903564}
+        - {x: 66.28, y: 134.90356}
+        - {x: 20.279999, y: 147.90356}
+        - {x: -36.72, y: 147.90356}
+        - {x: -71.72, y: 137.90356}
+        - {x: -108.72, y: 93.903564}
+        - {x: -131.72, y: 51.903564}
+        - {x: -131.72, y: -5.0964355}
+        - {x: -121.72, y: -27.096436}
+        - {x: -128.72, y: -66.096436}
+        - {x: -64.72, y: -104.096436}
+        - {x: -59.72, y: -106.096436}
+        - {x: 4.279999, y: -117.096436}
+        - {x: 7.279999, y: -116.096436}
+        - {x: 13.279999, y: -105.096436}
+        - {x: 62.28, y: -108.096436}
+        - {x: 104.28, y: -75.096436}
+    - name: pufferfish spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 1000
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.4955, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.673996, y: -122.431946}
+        - {x: 131.674, y: -110.431946}
+        - {x: 133.674, y: -30.431946}
+        - {x: 146.674, y: -5.431946}
+        - {x: 146.674, y: 67.568054}
+        - {x: 134.674, y: 116.568054}
+        - {x: 91.673996, y: 130.56805}
+        - {x: 66.673996, y: 188.56805}
+        - {x: 20.673996, y: 145.56805}
+        - {x: -9.326004, y: 188.56805}
+        - {x: -14.326004, y: 188.56805}
+        - {x: -18.326004, y: 181.56805}
+        - {x: -86.326004, y: 166.56805}
+        - {x: -91.326004, y: 164.56805}
+        - {x: -158.326, y: 113.568054}
+        - {x: -161.326, y: 103.568054}
+        - {x: -161.326, y: -21.431946}
+        - {x: -153.326, y: -49.431946}
+        - {x: -161.326, y: -79.431946}
+        - {x: -161.326, y: -84.431946}
+        - {x: -160.326, y: -87.431946}
+        - {x: -155.326, y: -86.431946}
+        - {x: -85.326004, y: -143.43195}
+        - {x: -40.326004, y: -158.43195}
+        - {x: 13.673996, y: -158.43195}
+        - {x: 34.673996, y: -123.431946}
+        - {x: 79.673996, y: -138.43195}
+        - {x: 78.673996, y: -131.43195}
+    - name: pufferfish spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 1100
+      alignment: 9
+      pivot: {x: 0.496, y: 0.46}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.48801, y: -152.632}
+        - {x: 114.48801, y: -103.632}
+        - {x: 142.488, y: -119.632}
+        - {x: 150.488, y: -118.632}
+        - {x: 147.488, y: -39.632004}
+        - {x: 171.488, y: 13.367996}
+        - {x: 172.488, y: 15.367996}
+        - {x: 172.488, y: 74.368}
+        - {x: 164.488, y: 119.368}
+        - {x: 156.488, y: 128.368}
+        - {x: 90.48801, y: 131.368}
+        - {x: 89.48801, y: 191.368}
+        - {x: 85.48801, y: 193.368}
+        - {x: 37.488007, y: 162.368}
+        - {x: -2.5119934, y: 193.368}
+        - {x: -6.5119934, y: 215.368}
+        - {x: -20.511993, y: 215.368}
+        - {x: -65.51199, y: 168.368}
+        - {x: -98.51199, y: 188.368}
+        - {x: -101.51199, y: 187.368}
+        - {x: -101.51199, y: 179.368}
+        - {x: -90.51199, y: 139.368}
+        - {x: -169.512, y: 129.368}
+        - {x: -170.512, y: 84.368}
+        - {x: -184.512, y: 56.367996}
+        - {x: -184.512, y: 3.3679962}
+        - {x: -172.512, y: -37.632004}
+        - {x: -184.512, y: -94.632}
+        - {x: -184.512, y: -104.632}
+        - {x: -96.51199, y: -125.632}
+        - {x: -98.51199, y: -168.632}
+        - {x: -58.511993, y: -134.632}
+        - {x: 4.4880066, y: -184.632}
+        - {x: 12.488007, y: -184.632}
+        - {x: 30.488007, y: -139.632}
+        - {x: 87.48801, y: -158.632}
+        - {x: 91.48801, y: -159.632}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
