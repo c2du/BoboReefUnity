@@ -15,8 +15,12 @@ public class CoralMoveManagerFlip : MonoBehaviour {
 	private float minscale;
 	private SpriteRenderer spriterend;
 
+	private bool ResetFlag;
+
 	// Use this for initialization
 	void Start () {
+
+
 		// Get components
 		rb2d = GetComponent<Rigidbody2D> ();
 		stageDimensions = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height,0));
@@ -41,7 +45,10 @@ public class CoralMoveManagerFlip : MonoBehaviour {
 		transform.Rotate (Vector3.forward * (Random.Range (-20, 20)));
 
 		// Set speed
-		speed = 0.04f;
+		speed = 0.1f;
+
+		ResetFlag = false;
+
 	}
 
 	// Update is called once per frame
@@ -52,18 +59,48 @@ public class CoralMoveManagerFlip : MonoBehaviour {
 			ResumeGame ();
 		}
 
-		position.Set (position.x - Time.timeScale*(speed), position.y);
-		rb2d.MovePosition (position);
+		if (!ResetFlag) {
+			position.Set (position.x - Time.timeScale * (speed), position.y);
+			rb2d.MovePosition (position);
+
+		} else {
+			/*
+			Debug.Log ("Stage.x: " + stageDimensions.x+"  ~ vs ~ Screen.Width: "+ Screen.width);
+
+			position.Set ( (Screen.width ) * 1.3f, Random.Range (-stageDimensions.y + .8f, -stageDimensions.y + 1.2f));
+			rb2d.MovePosition (position);
+
+			Debug.Log ("Position.x: " + position.x+"  ~ vs ~ Screen.Width: "+ Screen.width);
+
+
+			ResetFlag = false;
+
+			*/
+		}
+
+
+
 	}
 
+
+
+
+
 	public void resetPosition() {
-		position.Set (stageDimensions.x * 1.3f, Random.Range (stageDimensions.y - 1.2f, stageDimensions.y - .8f));
+
+
+		ResetFlag = true;
+		//gameObject.transform.position =  new Vector2( stageDimensions.x * 1.3f, Random.Range (stageDimensions.y - 1.2f, stageDimensions.y - .8f));
+	
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
 		if (other.gameObject.CompareTag ("BarrierEnd")) {
-			objectPool.PoolObject (this.gameObject);
-			resetPosition ();
+			
+			Debug.Log ("Barrier End Hit By Flip Corral");
+			//objectPool.PoolObject (this.gameObject);
+
+
 		}
 	} 
 

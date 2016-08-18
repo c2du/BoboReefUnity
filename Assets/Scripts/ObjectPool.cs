@@ -125,7 +125,7 @@ public class ObjectPool : MonoBehaviour {
 	/// </param>
 	public void PoolObject ( GameObject obj )
 	{
-		//Debug.Log ("Pooling Object");
+		/*//Debug.Log ("Pooling Object");
 		for ( int i=0; i<objectPrefabs.Length; i++)
 		{
 			if(objectPrefabs[i].name == obj.name)
@@ -141,6 +141,7 @@ public class ObjectPool : MonoBehaviour {
 				return;
 			}
 		}
+		*/
 	}
 
 	public void StartPoolObject ( GameObject obj )

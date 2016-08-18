@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 
 	private int some_random_num;
 	private GameObject objectPool;
-	private int numFish;
+	//private int numFish;
 	private Vector3 stageDimensions;
 
 	public GameObject pufferfish;
@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
 	void Start() {
 		gameOver = false;
 		paused = false;
-		numFish = 0;
+		//numFish = 0;
 		stageDimensions = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height,0));
 	}
 
@@ -68,19 +68,28 @@ public class GameManager : MonoBehaviour {
 	void spawnCoral() {
 
 		if (!paused) {
+
+
 		//if (gameOver != true) {
 			//Debug.Log ("Invoking moreFish()");
 			some_random_num = Random.Range (1, 9);
 			//Debug.Log (some_random_num.ToString ());
+
+			
+
 			switch (some_random_num) {
 
 			case 1:
+
 				GetComponent<ObjectPool>().GetObjectForType("coral_bg_0", true);
 				break;
 
 			case 2:
 				//GetComponent<ObjectPool> ().GetObjectForType ("coral_bg_1", true);
 				GetComponent<ObjectPool>().GetObjectForType("coral_bg_0", true);
+
+
+
 				break;
 
 			case 3:
@@ -108,14 +117,21 @@ public class GameManager : MonoBehaviour {
 				GetComponent<ObjectPool>().GetObjectForType("coral_fg_3", true);
 				break;
 			}
+
+			
+
 		}
+
+		
+
 	}
+
 
 	// Use this for initialization
 	void Awake () {
 		InvokeRepeating("moreFish", 1, 1F);
-		InvokeRepeating ("spawnCoral", 1, 1f);
-		InvokeRepeating ("spawnFlipCoral", 1, 1f);
+		InvokeRepeating ("spawnCoral", .2f, 1f);
+		InvokeRepeating ("spawnFlipCoral", 1f, 1f);
 		InvokeRepeating ("morePufferfish", 1, 8f);
 	}
 
@@ -138,6 +154,7 @@ public class GameManager : MonoBehaviour {
 	void moreFish(){
 
 		if (!paused) {
+			GameObject obj;
 		//if (gameOver != true) {
 			//Debug.Log ("Invoking moreFish()");
 			some_random_num = Random.Range (1, 6);
@@ -146,34 +163,48 @@ public class GameManager : MonoBehaviour {
 
 			case 1:
 				//Instantiate (bluefish);
-				GameObject obj = ObjectPool.instance.GetObjectForType ("BlueFish", true);
-				if (obj == null)
-					return;
-				obj.transform.position = new Vector2 (10f, Random.Range (-stageDimensions.y, stageDimensions.y));
-				obj.SetActive (true);
+				obj = ObjectPool.instance.GetObjectForType ("BlueFish", true);
+				setFishPosition (obj);
 				//Debug.Log ("GetObjectForType");
 				break;
 
 			case 2:
 				//Instantiate (greenfish);
-				//ObjectPool.instance.GetObjectForType("GreenFish", true);
+				obj = ObjectPool.instance.GetObjectForType("GreenFish", true);
+				setFishPosition (obj);
+
 				break;
 
 			case 3:
 				//Instantiate (purplefish);
-				//ObjectPool.instance.GetObjectForType("PurpleFish", true);
+				obj = ObjectPool.instance.GetObjectForType("PurpleFish", true);
+				setFishPosition (obj);
+
 				break;
 
 			case 4:
-				//ObjectPool.instance.GetObjectForType ("Goldfish", true);
+				obj = ObjectPool.instance.GetObjectForType ("Goldfish", true);
+				setFishPosition (obj);
+
 				break;
 
 			case 5:
-				//ObjectPool.instance.GetObjectForType ("Peachfish", true);
+				obj = ObjectPool.instance.GetObjectForType ("Peachfish", true);
+				setFishPosition (obj);
+
 				break;
 
 			}
 		}
+	}
+
+	void setFishPosition(GameObject obj){
+
+		if (obj == null)
+			return;
+		obj.transform.position = new Vector2 (10f, Random.Range (-stageDimensions.y, stageDimensions.y));
+		obj.SetActive (true);
+
 	}
 
 	void morePufferfish(){
