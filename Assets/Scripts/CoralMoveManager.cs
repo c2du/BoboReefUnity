@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CoralMoveManager : MonoBehaviour {
 
-	public float speed;
+	public static float speed;
 	public bool isFlipped;
 
 	private Rigidbody2D rb2d;
@@ -64,7 +64,7 @@ public class CoralMoveManager : MonoBehaviour {
 		transform.Rotate (Vector3.forward * (Random.Range (-20, 20)));
 
 		// Set speed
-		speed = 0.16f;
+		speed = 0.08f;
 
 
 
@@ -84,7 +84,7 @@ public class CoralMoveManager : MonoBehaviour {
 		}
 
 
-		Debug.Log ("position.x: " + position.x);
+		//Debug.Log ("position.x: " + position.x);
 
 
 		if ( position.x > -14 ) {
@@ -174,13 +174,13 @@ public class CoralMoveManager : MonoBehaviour {
 
 
 
-	public void PauseGame() {
+	public static void PauseGame() {
 		Time.timeScale = 0f;
 	}
 
 
 
-	public void ResumeGame() {
+	public static void ResumeGame() {
 		Time.timeScale = 1f;
 	}
 }

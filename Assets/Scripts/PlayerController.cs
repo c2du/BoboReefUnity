@@ -4,8 +4,11 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
-	public Text countText;
+	public static int bubblecount;
 	public bool dead;
+
+	public Text countText;
+	public Text lifeText;
 	public GameObject bg;
 
 	private Rigidbody2D rb2d;
@@ -20,7 +23,17 @@ public class PlayerController : MonoBehaviour {
 		count = 0;
 		setCountText ();
 		dead = false;
+		bubblecount = 5;
 		//objectPool = GameObject.Find ("GameManager").GetComponent<ObjectPool> ();
+	}
+
+	void Awake () {
+		InvokeRepeating ("loseLife", 1, 2f);
+	}
+
+	void loseLife() {
+		bubblecount = bubblecount - 1;
+		setLifeText ();
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -38,11 +51,18 @@ public class PlayerController : MonoBehaviour {
 
 			count = count + 1;
 			setCountText ();
+		} else if (other.gameObject.CompareTag ("Bubble") && bubblecount < 11) {
+			bubblecount = bubblecount + 1;
+			setLifeText ();
 		}
 	}
 
 	void setCountText () {
 		countText.text = "Friends: " + count.ToString ();
+	}
+
+	void setLifeText () {
+		lifeText.text = "Air: " + bubblecount.ToString ();
 	}
 
 	void FixedUpdate()

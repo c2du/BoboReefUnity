@@ -129,10 +129,11 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Awake () {
-		InvokeRepeating("moreFish", 1, 1F);
+		InvokeRepeating ("moreFish", 1, 1f);
 		InvokeRepeating ("spawnCoral", .2f, 1f);
 		InvokeRepeating ("spawnFlipCoral", 1f, 1f);
 		InvokeRepeating ("morePufferfish", 1, 8f);
+		InvokeRepeating ("moreBubbles", 1, 1f);
 	}
 
 	public void GameOver() {
@@ -157,7 +158,7 @@ public class GameManager : MonoBehaviour {
 			GameObject obj;
 		//if (gameOver != true) {
 			//Debug.Log ("Invoking moreFish()");
-			some_random_num = Random.Range (1, 6);
+			some_random_num = Random.Range (1, 7);
 			//Debug.Log (some_random_num.ToString ());
 			switch (some_random_num) {
 
@@ -165,36 +166,65 @@ public class GameManager : MonoBehaviour {
 				//Instantiate (bluefish);
 				obj = ObjectPool.instance.GetObjectForType ("BlueFish", true);
 				setFishPosition (obj);
-				//Debug.Log ("GetObjectForType");
 				break;
 
 			case 2:
 				//Instantiate (greenfish);
 				obj = ObjectPool.instance.GetObjectForType("GreenFish", true);
 				setFishPosition (obj);
-
 				break;
 
 			case 3:
 				//Instantiate (purplefish);
 				obj = ObjectPool.instance.GetObjectForType("PurpleFish", true);
 				setFishPosition (obj);
-
 				break;
 
 			case 4:
-				obj = ObjectPool.instance.GetObjectForType ("Goldfish", true);
+				obj = ObjectPool.instance.GetObjectForType ("Peachfish", true);
 				setFishPosition (obj);
-
 				break;
 
 			case 5:
-				obj = ObjectPool.instance.GetObjectForType ("Peachfish", true);
+				obj = ObjectPool.instance.GetObjectForType ("Goldfish", true);
 				setFishPosition (obj);
+				break;
 
+			case 6:
+				obj = ObjectPool.instance.GetObjectForType ("Treasure1", true);
+				setFishPosition (obj);
 				break;
 
 			}
+		}
+	}
+
+	void moreBubbles() {
+
+		if (!paused) {
+			GameObject obj;
+			//if (gameOver != true) {
+			//Debug.Log ("Invoking moreFish()");
+			some_random_num = Random.Range (1, 4);
+			//Debug.Log (some_random_num.ToString ());
+			switch (some_random_num) {
+
+			case 1:
+				obj = ObjectPool.instance.GetObjectForType ("RealBubble1", true);
+				setFishPosition (obj);
+				break;
+
+			case 2: 
+				obj = ObjectPool.instance.GetObjectForType ("RealBubble2", true);
+				setFishPosition (obj);
+				break;
+
+			case 3: 
+				obj = ObjectPool.instance.GetObjectForType ("RealBubble3", true);
+				setFishPosition (obj);
+				break;
+			}
+				
 		}
 	}
 
@@ -208,6 +238,6 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void morePufferfish(){
-		//Instantiate (pufferfish);
+		Instantiate (pufferfish);
 	}
 }

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class PufferfishController : MonoBehaviour {
 
+	public GameObject corgi;
+
 	private GameObject canvas;
 	private GameObject gm;
 	private GameObject bg;
@@ -49,6 +51,15 @@ public class PufferfishController : MonoBehaviour {
 			ResumeGame ();
 		}
 
+		if (PlayerController.bubblecount < 1) {
+			canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
+			GameObject.Find("Corgi_Streamline").GetComponent<PlayerController>().spinCorgi ();
+			GameObject.Find("Corgi_Streamline").GetComponent<PlayerController>().dead = true;
+			gm.GetComponent<GameManager> ().GameOver ();
+			bg.GetComponent<Scroll> ().speed = 0;
+		}
+			
+
 		position.Set (position.x - Time.timeScale*(speed), position.y);
 		rb2d.MovePosition (position);
 		//animator = GetComponent<Animator> ();
@@ -71,8 +82,8 @@ public class PufferfishController : MonoBehaviour {
 				bc2d.enabled = false;
 			} else {
 				canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
-				other.GetComponent<PlayerController> ().spinCorgi ();
-				other.GetComponent<PlayerController> ().dead = true;
+				other.GetComponent<PlayerController>().spinCorgi ();
+				other.GetComponent<PlayerController>().dead = true;
 				gm.GetComponent<GameManager> ().GameOver ();
 				bg.GetComponent<Scroll> ().speed = 0;
 			}
