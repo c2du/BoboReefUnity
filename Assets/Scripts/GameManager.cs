@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour {
 	private Vector3 stageDimensions;
 
 	public GameObject pufferfish;
+	public GameObject treasure;
 	public bool gameOver;
 	public static bool paused;
 
@@ -133,6 +134,7 @@ public class GameManager : MonoBehaviour {
 		InvokeRepeating ("spawnCoral", .2f, 1f);
 		InvokeRepeating ("spawnFlipCoral", 1f, 1f);
 		InvokeRepeating ("morePufferfish", 1, 8f);
+		InvokeRepeating ("moreTreasure", 1, 10f);
 		InvokeRepeating ("moreBubbles", 1, 1f);
 	}
 
@@ -158,7 +160,7 @@ public class GameManager : MonoBehaviour {
 			GameObject obj;
 		//if (gameOver != true) {
 			//Debug.Log ("Invoking moreFish()");
-			some_random_num = Random.Range (1, 7);
+			some_random_num = Random.Range (1, 6);
 			//Debug.Log (some_random_num.ToString ());
 			switch (some_random_num) {
 
@@ -187,11 +189,6 @@ public class GameManager : MonoBehaviour {
 
 			case 5:
 				obj = ObjectPool.instance.GetObjectForType ("Goldfish", true);
-				setFishPosition (obj);
-				break;
-
-			case 6:
-				obj = ObjectPool.instance.GetObjectForType ("Treasure1", true);
 				setFishPosition (obj);
 				break;
 
@@ -239,5 +236,9 @@ public class GameManager : MonoBehaviour {
 
 	void morePufferfish(){
 		Instantiate (pufferfish);
+	}
+
+	void moreTreasure() {
+		Instantiate (treasure);
 	}
 }

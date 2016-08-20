@@ -8,9 +8,10 @@ public class PlayerController : MonoBehaviour {
 	public bool dead;
 
 	public Text countText;
-	public Text lifeText;
+	//public Text lifeText;
 	public GameObject bg;
 
+	private GameObject canvas;
 	private Rigidbody2D rb2d;
 	private Touch touch;
 	private int count;
@@ -23,17 +24,18 @@ public class PlayerController : MonoBehaviour {
 		count = 0;
 		setCountText ();
 		dead = false;
-		bubblecount = 5;
+		//bubblecount = 5;
+		canvas = GameObject.Find ("Canvas");
 		//objectPool = GameObject.Find ("GameManager").GetComponent<ObjectPool> ();
 	}
 
 	void Awake () {
-		InvokeRepeating ("loseLife", 1, 2f);
+		//InvokeRepeating ("loseLife", 1, 2f);
 	}
 
 	void loseLife() {
-		bubblecount = bubblecount - 1;
-		setLifeText ();
+		//bubblecount = bubblecount - 1;
+		//setLifeText ();
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -51,9 +53,10 @@ public class PlayerController : MonoBehaviour {
 
 			count = count + 1;
 			setCountText ();
-		} else if (other.gameObject.CompareTag ("Bubble") && bubblecount < 11) {
-			bubblecount = bubblecount + 1;
-			setLifeText ();
+		} else if (other.gameObject.CompareTag ("Bubble")) {
+			canvas.GetComponent<LoadOnClick> ().gainAir ();
+			//bubblecount = bubblecount + 1;
+			//setLifeText ();
 		}
 	}
 
@@ -62,7 +65,7 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void setLifeText () {
-		lifeText.text = "Air: " + bubblecount.ToString ();
+		//lifeText.text = "Air: " + bubblecount.ToString ();
 	}
 
 	void FixedUpdate()

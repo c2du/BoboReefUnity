@@ -9,7 +9,7 @@ public class PufferfishController : MonoBehaviour {
 
 	private GameObject canvas;
 	private GameObject gm;
-	private GameObject bg;
+	//private GameObject bg;
 
 	public float speed;
 	private Rigidbody2D rb2d;
@@ -31,7 +31,7 @@ public class PufferfishController : MonoBehaviour {
 
 		canvas = GameObject.Find ("Canvas");
 		gm = GameObject.Find ("GameManager");
-		bg = GameObject.Find ("background");
+		//bg = GameObject.Find ("background");
 
 		stageDimensions = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height,0));
 
@@ -51,13 +51,13 @@ public class PufferfishController : MonoBehaviour {
 			ResumeGame ();
 		}
 
-		if (PlayerController.bubblecount < 1) {
+		/*if (PlayerController.bubblecount < 1) {
 			canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
 			GameObject.Find("Corgi_Streamline").GetComponent<PlayerController>().spinCorgi ();
 			GameObject.Find("Corgi_Streamline").GetComponent<PlayerController>().dead = true;
 			gm.GetComponent<GameManager> ().GameOver ();
-			bg.GetComponent<Scroll> ().speed = 0;
-		}
+			//bg.GetComponent<Scroll> ().speed = 0;
+		}*/
 			
 
 		position.Set (position.x - Time.timeScale*(speed), position.y);
@@ -81,11 +81,15 @@ public class PufferfishController : MonoBehaviour {
 				animator.SetBool ("puff", true);
 				bc2d.enabled = false;
 			} else {
-				canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
-				other.GetComponent<PlayerController>().spinCorgi ();
-				other.GetComponent<PlayerController>().dead = true;
-				gm.GetComponent<GameManager> ().GameOver ();
-				bg.GetComponent<Scroll> ().speed = 0;
+				if (canvas.GetComponent<LoadOnClick> ().hasAir ()) {
+					canvas.GetComponent<LoadOnClick> ().loseAllAir ();
+				} else {
+					canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
+					other.GetComponent<PlayerController> ().spinCorgi ();
+					other.GetComponent<PlayerController> ().dead = true;
+					gm.GetComponent<GameManager> ().GameOver ();
+				}
+				//bg.GetComponent<Scroll> ().speed = 0;
 			}
 		}
 	

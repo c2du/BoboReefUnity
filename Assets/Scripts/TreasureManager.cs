@@ -8,6 +8,7 @@ public class TreasureManager : MonoBehaviour {
 	private Vector2 position;
 	private Vector3 stageDimensions;
 	private float speed;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +17,7 @@ public class TreasureManager : MonoBehaviour {
 		startPos = new Vector2 (stageDimensions.x * 1.3f, -4.4f);
 		position = startPos;
 		speed = CoralMoveManager.speed;
+		animator = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -26,15 +28,19 @@ public class TreasureManager : MonoBehaviour {
 			CoralMoveManager.ResumeGame ();
 		}*/
 
-		if (position.x > -14) {
+		position.Set (position.x - (Time.timeScale * speed), position.y);
+		rb2d.MovePosition (position);
 
-			position.Set (position.x - (Time.timeScale * speed), position.y);
-			rb2d.MovePosition (position);
+	}
 
-		} else {
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.gameObject.CompareTag ("Player")) {
+			Debug.Log ("COLLIDED WITH PLAYER");
+			animator.SetBool ("open", true);
+		}
 
-			position.Set (startPos.x, startPos.y);
-
+		if (other.gameObject.CompareTag ("BarrierEnd")) {
+			Destroy (this.gameObject);
 		}
 	}
 }

@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: c515a2354e3e14c73b320bed53faf6e8
+timeCreated: 1471646355
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: healthbars_0
+    21300002: healthbars_1
+    21300004: healthbars_2
+    21300006: healthbars_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: healthbars_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 700
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 350, y: 4.5}
+        - {x: 350, y: 38.5}
+        - {x: 341, y: 46.5}
+        - {x: 333, y: 49.5}
+        - {x: -192, y: 48.5}
+        - {x: -199, y: 67.5}
+        - {x: -218, y: 82.5}
+        - {x: -325, y: 82.5}
+        - {x: -349, y: 59.5}
+        - {x: -350, y: 53.5}
+        - {x: -350, y: -4.5}
+        - {x: -346, y: -12.5}
+        - {x: -337, y: -25.5}
+        - {x: -272, y: -82.5}
+        - {x: -262, y: -82.5}
+        - {x: -193, y: -13.5}
+        - {x: -190, y: -1.5}
+        - {x: 337, y: -1.5}
+    - name: healthbars_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 104
+        width: 517
+        height: 12
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: healthbars_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 49
+        width: 429
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -214.5, y: 20}
+        - {x: -214.5, y: -14}
+        - {x: -210.5, y: -20}
+        - {x: 209.5, y: -20}
+        - {x: 214.5, y: -15}
+        - {x: 214.5, y: 20}
+    - name: healthbars_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 16
+        width: 344
+        height: 18
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
