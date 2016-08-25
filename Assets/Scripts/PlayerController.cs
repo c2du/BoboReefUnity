@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
 
 	public static int bubblecount;
 	public bool dead;
+	public Animator animator;
 
 	public Text countText;
 	//public Text lifeText;
@@ -16,10 +17,12 @@ public class PlayerController : MonoBehaviour {
 	private Touch touch;
 	private int count;
 	private SpriteRenderer fsr;
+
 	//private ObjectPool objectPool;
 
 	void Start()
 	{
+		animator = GetComponent<Animator> ();
 		rb2d = GetComponent<Rigidbody2D> ();
 		count = 0;
 		setCountText ();
@@ -57,6 +60,9 @@ public class PlayerController : MonoBehaviour {
 			canvas.GetComponent<LoadOnClick> ().gainAir ();
 			//bubblecount = bubblecount + 1;
 			//setLifeText ();
+		} else if (other.gameObject.CompareTag ("Treasure")) {
+			canvas.GetComponent<LoadOnClick> ().gainAllAir ();
+			animator.SetBool ("air", true);
 		}
 	}
 
@@ -80,11 +86,11 @@ public class PlayerController : MonoBehaviour {
 		} else {
 
 			if (Input.touchCount > 0) {
-				rb2d.AddForce (new Vector2 (0f, 5.0f));
+				rb2d.AddForce (new Vector2 (0f, 0.5f));
 			}
 			//Debug.Log (Input.GetMouseButton (0).ToString ());
 			if (Input.GetMouseButton (0)) {
-				rb2d.AddForce (new Vector2 (0f, 14.0f));
+				rb2d.AddForce (new Vector2 (0f, 12.0f));
 			}
 
 			if (dead) {

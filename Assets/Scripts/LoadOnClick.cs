@@ -85,13 +85,21 @@ public class LoadOnClick : MonoBehaviour {
 		}
 	}
 
+	public void gainAllAir() {
+		airbar.GetComponent<RectTransform> ().sizeDelta = new Vector2 (142f, 5.3f);
+	}
+
 	public bool hasAir() {
+		Debug.Log ("airbar sizedelta.x = " + airbar.GetComponent<RectTransform> ().sizeDelta.x);
 		if (airbar.GetComponent<RectTransform> ().sizeDelta.x > 0) {
 			return true;
 		} else {
 			return false;
 		}
 	}
+
+
+
 
 	public void loseLife() {
 		if (lifebar.GetComponent<RectTransform> ().sizeDelta.x < 1) {

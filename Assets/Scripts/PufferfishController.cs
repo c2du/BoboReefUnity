@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PufferfishController : MonoBehaviour {
 
-	public GameObject corgi;
+	private GameObject corgi;
 
 	private GameObject canvas;
 	private GameObject gm;
@@ -28,6 +28,7 @@ public class PufferfishController : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 		bc2d = GetComponent<BoxCollider2D> ();
 		firstCollision = false;
+		corgi = GameObject.Find ("A_corgi");
 
 		canvas = GameObject.Find ("Canvas");
 		gm = GameObject.Find ("GameManager");
@@ -83,7 +84,9 @@ public class PufferfishController : MonoBehaviour {
 			} else {
 				if (canvas.GetComponent<LoadOnClick> ().hasAir ()) {
 					canvas.GetComponent<LoadOnClick> ().loseAllAir ();
+					corgi.GetComponent<PlayerController> ().animator.SetBool ("air", false);
 				} else {
+					Debug.Log ("PUFFERFISH KILLS CORGI");
 					canvas.GetComponent<LoadOnClick> ().DisplayGameOver ();
 					other.GetComponent<PlayerController> ().spinCorgi ();
 					other.GetComponent<PlayerController> ().dead = true;
