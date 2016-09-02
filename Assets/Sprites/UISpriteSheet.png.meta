@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: e627b5bba6dda4dc4a47bde051b5068d
+timeCreated: 1472786190
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UISpriteSheet_0
+    21300002: UISpriteSheet_1
+    21300004: UISpriteSheet_2
+    21300006: UISpriteSheet_3
+    21300008: UISpriteSheet_4
+    21300010: UISpriteSheet_5
+    21300012: UISpriteSheet_6
+    21300014: UISpriteSheet_7
+    21300016: UISpriteSheet_8
+    21300018: UISpriteSheet_9
+    21300020: UISpriteSheet_10
+    21300022: UISpriteSheet_11
+    21300024: UISpriteSheet_12
+    21300026: UISpriteSheet_13
+    21300028: UISpriteSheet_14
+    21300030: UISpriteSheet_15
+    21300032: UISpriteSheet_16
+    21300034: UISpriteSheet_17
+    21300036: UISpriteSheet_18
+    21300038: UISpriteSheet_19
+    21300040: UISpriteSheet_20
+    21300042: UISpriteSheet_21
+    21300044: UISpriteSheet_22
+    21300046: UISpriteSheet_23
+    21300048: UISpriteSheet_24
+    21300050: UISpriteSheet_25
+    21300052: UISpriteSheet_26
+    21300054: UISpriteSheet_27
+    21300056: UISpriteSheet_28
+    21300058: UISpriteSheet_29
+    21300060: UISpriteSheet_30
+    21300062: UISpriteSheet_31
+    21300064: UISpriteSheet_32
+    21300066: UISpriteSheet_33
+    21300068: UISpriteSheet_34
+    21300070: UISpriteSheet_35
+    21300072: UISpriteSheet_36
+    21300074: UISpriteSheet_37
+    21300076: UISpriteSheet_38
+    21300078: UISpriteSheet_39
+    21300080: UISpriteSheet_40
+    21300082: UISpriteSheet_41
+    21300084: UISpriteSheet_42
+    21300086: UISpriteSheet_43
+    21300088: UISpriteSheet_44
+    21300090: UISpriteSheet_45
+    21300092: UISpriteSheet_46
+    21300094: UISpriteSheet_47
+    21300096: UISpriteSheet_48
+    21300098: UISpriteSheet_49
+    21300100: UISpriteSheet_50
+    21300102: UISpriteSheet_51
+    21300104: UISpriteSheet_52
+    21300106: UISpriteSheet_53
+    21300108: UISpriteSheet_54
+    21300110: UISpriteSheet_55
+    21300112: UISpriteSheet_56
+    21300114: UISpriteSheet_57
+    21300116: UISpriteSheet_58
+    21300118: UISpriteSheet_59
+    21300120: UISpriteSheet_60
+    21300122: UISpriteSheet_61
+    21300124: UISpriteSheet_62
+    21300126: UISpriteSheet_63
+    21300128: UISpriteSheet_64
+    21300130: UISpriteSheet_65
+    21300132: UISpriteSheet_66
+    21300134: UISpriteSheet_67
+    21300136: UISpriteSheet_68
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UISpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 5239
+        width: 754
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 3917
+        width: 2681
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 428.94, y: -180.06006}
+        - {x: 428.94, y: -47.06006}
+        - {x: 429.94, y: -46.06006}
+        - {x: 429.94, y: 161.93994}
+        - {x: 427.94, y: 169.93994}
+        - {x: 425.94, y: 172.93994}
+        - {x: 423.94, y: 177.93994}
+        - {x: 417.94, y: 182.93994}
+        - {x: 416.94, y: 182.93994}
+        - {x: 412.94, y: 187.93994}
+        - {x: 409.94, y: 188.93994}
+        - {x: 407.94, y: 188.93994}
+        - {x: 404.94, y: 190.93994}
+        - {x: 402.94, y: 190.93994}
+        - {x: 398.94, y: 192.93994}
+        - {x: -404.06, y: 192.93994}
+        - {x: -405.06, y: 191.93994}
+        - {x: -408.06, y: 191.93994}
+        - {x: -417.06, y: 187.93994}
+        - {x: -423.06, y: 180.93994}
+        - {x: -423.06, y: 179.93994}
+        - {x: -426.06, y: 177.93994}
+        - {x: -427.06, y: 174.93994}
+        - {x: -427.06, y: 172.93994}
+        - {x: -429.06, y: 168.93994}
+        - {x: -429.06, y: -184.06006}
+        - {x: -428.06, y: -188.06006}
+        - {x: -425.06, y: -191.06006}
+        - {x: -421.06, y: -192.06006}
+        - {x: 421.94, y: -192.06006}
+        - {x: 427.94, y: -186.06006}
+        - {x: 427.94, y: -181.06006}
+    - name: UISpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 3883
+        width: 1666
+        height: 1262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 267.51996, y: 174.05994}
+        - {x: 266.51996, y: 182.05994}
+        - {x: 264.51996, y: 185.05994}
+        - {x: 263.51996, y: 189.05994}
+        - {x: 261.51996, y: 191.05994}
+        - {x: 261.51996, y: 192.05994}
+        - {x: 254.51996, y: 200.05994}
+        - {x: 247.51996, y: 203.05994}
+        - {x: -249.48004, y: 203.05994}
+        - {x: -250.48004, y: 202.05994}
+        - {x: -254.48004, y: 201.05994}
+        - {x: -261.48004, y: 195.05994}
+        - {x: -264.48004, y: 188.05994}
+        - {x: -265.48004, y: 185.05994}
+        - {x: -265.48004, y: 182.05994}
+        - {x: -266.48004, y: 181.05994}
+        - {x: -266.48004, y: -195.94006}
+        - {x: -265.48004, y: -199.94006}
+        - {x: -263.48004, y: -201.94006}
+        - {x: 263.51996, y: -201.94006}
+        - {x: 266.51996, y: -198.94006}
+        - {x: 266.51996, y: -196.94006}
+        - {x: 267.51996, y: -195.94006}
+    - name: UISpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4761
+        y: 4123
+        width: 878
+        height: 1075
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 134.52002, y: -154.14001}
+        - {x: 138.52002, y: -146.14001}
+        - {x: 141.52002, y: -137.14001}
+        - {x: 141.52002, y: 137.85999}
+        - {x: 139.52002, y: 143.85999}
+        - {x: 139.52002, y: 146.85999}
+        - {x: 134.52002, y: 154.85999}
+        - {x: 124.52002, y: 164.85999}
+        - {x: 119.52002, y: 168.85999}
+        - {x: 109.52002, y: 172.85999}
+        - {x: -108.47998, y: 172.85999}
+        - {x: -114.47998, y: 170.85999}
+        - {x: -122.47998, y: 166.85999}
+        - {x: -128.47998, y: 161.85999}
+        - {x: -133.47998, y: 154.85999}
+        - {x: -135.47998, y: 152.85999}
+        - {x: -139.47998, y: 143.85999}
+        - {x: -140.47998, y: 140.85999}
+        - {x: -140.47998, y: -139.14001}
+        - {x: -138.47998, y: -145.14001}
+        - {x: -135.47998, y: -152.14001}
+        - {x: -120.47998, y: -167.14001}
+        - {x: -111.47998, y: -171.14001}
+        - {x: -108.47998, y: -172.14001}
+        - {x: 108.52002, y: -172.14001}
+        - {x: 111.52002, y: -171.14001}
+        - {x: 120.52002, y: -167.14001}
+        - {x: 126.52002, y: -162.14001}
+    - name: UISpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 4414
+        width: 415
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.359985, y: -38.02002}
+        - {x: -24.359985, y: -86.02002}
+        - {x: 23.640015, y: -86.02002}
+        - {x: 67.640015, y: -45.02002}
+        - {x: 67.640015, y: 0.97998047}
+        - {x: 3.6400146, y: 86.97998}
+        - {x: -1.3599854, y: 86.97998}
+        - {x: -3.3599854, y: 85.97998}
+        - {x: -66.359985, y: -1.0200195}
+    - name: UISpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 3373
+        width: 375
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -53.100002, y: 58.359985}
+        - {x: -60.100002, y: 48.359985}
+        - {x: -60.100002, y: -30.640015}
+        - {x: -54.100002, y: -54.640015}
+        - {x: -43.100002, y: -57.640015}
+        - {x: 31.899998, y: -57.640015}
+        - {x: 46.899998, y: -54.640015}
+        - {x: 60.899998, y: -16.640015}
+        - {x: 60.899998, y: 58.359985}
+    - name: UISpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 3345
+        width: 387
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.98001, y: 64.400024}
+        - {x: -61.98001, y: -43.599976}
+        - {x: -55.98001, y: -63.599976}
+        - {x: 57.01999, y: -63.599976}
+        - {x: 63.01999, y: -62.599976}
+        - {x: 63.01999, y: 64.400024}
+    - name: UISpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 3489
+        width: 203
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.559998, y: 35.97998}
+        - {x: -32.559998, y: -35.02002}
+        - {x: 33.440002, y: -35.02002}
+        - {x: 33.440002, y: 35.97998}
+    - name: UISpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 3411
+        width: 550
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.86005, y: 48.02002}
+        - {x: -87.86005, y: 22.02002}
+        - {x: -87.86005, y: -16.97998}
+        - {x: -85.86005, y: -27.97998}
+        - {x: -73.86005, y: -46.97998}
+        - {x: 66.13995, y: -46.97998}
+        - {x: 89.13995, y: -41.97998}
+        - {x: 89.13995, y: 27.02002}
+        - {x: 69.13995, y: 48.02002}
+    - name: UISpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 4961
+        y: 3695
+        width: 787
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -105.97998, y: 45.900024}
+        - {x: -122.97998, y: 28.900024}
+        - {x: -125.97998, y: 27.900024}
+        - {x: -125.97998, y: -31.099976}
+        - {x: -116.97998, y: -45.099976}
+        - {x: 114.02002, y: -45.099976}
+        - {x: 127.02002, y: -23.099976}
+        - {x: 127.02002, y: 34.900024}
+        - {x: 113.02002, y: 45.900024}
+    - name: UISpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 3542
+        width: 166
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.6000366, y: 17.939941}
+        - {x: -26.600037, y: -12.060059}
+        - {x: -26.600037, y: -17.060059}
+        - {x: 27.399963, y: -17.060059}
+        - {x: 27.399963, y: -10.060059}
+        - {x: 6.3999634, y: 17.939941}
+    - name: UISpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 3552
+        width: 166
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.52002, y: 17.640015}
+        - {x: -26.52002, y: 12.640015}
+        - {x: -6.5200195, y: -16.359985}
+        - {x: 4.4799805, y: -16.359985}
+        - {x: 14.47998, y: -7.3599854}
+        - {x: 26.47998, y: 11.640015}
+        - {x: 27.47998, y: 14.640015}
+        - {x: 27.47998, y: 17.640015}
+    - name: UISpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 3602
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 3461
+        width: 538
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81.10004, y: 34.02002}
+        - {x: -86.10004, y: 23.02002}
+        - {x: -86.10004, y: -17.97998}
+        - {x: -78.10004, y: -32.97998}
+        - {x: 72.89996, y: -32.97998}
+        - {x: 86.89996, y: -17.97998}
+        - {x: 86.89996, y: 34.02002}
+    - name: UISpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 3389
+        width: 441
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.56006, y: 43.97998}
+        - {x: -70.56006, y: 35.97998}
+        - {x: -70.56006, y: -24.02002}
+        - {x: -68.56006, y: -36.02002}
+        - {x: -55.56006, y: -43.02002}
+        - {x: 64.43994, y: -43.02002}
+        - {x: 71.43994, y: -24.02002}
+        - {x: 71.43994, y: 32.97998}
+        - {x: 66.43994, y: 43.97998}
+    - name: UISpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 4427
+        y: 3383
+        width: 437
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.859985, y: 44.059937}
+        - {x: -68.859985, y: 26.059937}
+        - {x: -69.859985, y: 24.059937}
+        - {x: -69.859985, y: -23.940063}
+        - {x: -53.859985, y: -42.940063}
+        - {x: 52.140015, y: -42.940063}
+        - {x: 71.140015, y: -23.940063}
+        - {x: 71.140015, y: 22.059937}
+        - {x: 56.140015, y: 44.059937}
+    - name: UISpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2930
+        width: 593
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 91.18, y: 3.0999756}
+        - {x: 89.18, y: -1.9000244}
+        - {x: 88.18, y: -4.9000244}
+        - {x: 88.18, y: -1.9000244}
+        - {x: 94.18, y: 9.099976}
+        - {x: 93.18, y: 18.099976}
+        - {x: 82.18, y: 36.099976}
+        - {x: -94.82, y: 36.099976}
+        - {x: -94.82, y: -34.900024}
+        - {x: 96.18, y: -34.900024}
+        - {x: 96.18, y: 6.0999756}
+        - {x: 95.18, y: 6.0999756}
+    - name: UISpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 2930
+        width: 257
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.859985, y: -2.9000244}
+        - {x: 33.859985, y: -1.9000244}
+        - {x: 41.859985, y: 2.0999756}
+        - {x: 41.859985, y: 19.099976}
+        - {x: 33.859985, y: 30.099976}
+        - {x: -1.1400146, y: 30.099976}
+        - {x: -25.140015, y: 27.099976}
+        - {x: -41.140015, y: 10.099976}
+        - {x: -41.140015, y: -28.900024}
+        - {x: 37.859985, y: -28.900024}
+        - {x: 41.859985, y: -26.900024}
+        - {x: 41.859985, y: -7.9000244}
+        - {x: 36.859985, y: -1.9000244}
+      - - {x: -41.140015, y: 21.099976}
+        - {x: -41.140015, y: 10.099976}
+        - {x: -37.140015, y: 11.099976}
+        - {x: -36.140015, y: 15.099976}
+        - {x: -36.140015, y: 19.099976}
+        - {x: -39.140015, y: 21.099976}
+    - name: UISpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 2933
+        width: 1013
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -162.02002, y: 35.559998}
+        - {x: -162.02002, y: -34.440002}
+        - {x: 162.97998, y: -34.440002}
+        - {x: 162.97998, y: 21.559998}
+        - {x: 83.97998, y: 35.559998}
+    - name: UISpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 2933
+        width: 631
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.86005, y: 35.059998}
+        - {x: -100.86005, y: 34.059998}
+        - {x: -100.86005, y: -28.940002}
+        - {x: -95.86005, y: -33.940002}
+        - {x: 102.13995, y: -33.940002}
+        - {x: 102.13995, y: 27.059998}
+        - {x: 76.13995, y: 35.059998}
+    - name: UISpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 3423
+        y: 2870
+        width: 935
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -149.64001, y: 44.899963}
+        - {x: -149.64001, y: -44.100037}
+        - {x: 139.35999, y: -44.100037}
+        - {x: 150.35999, y: -36.100037}
+        - {x: 150.35999, y: 44.899963}
+    - name: UISpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 4936
+        y: 2424
+        width: 12
+        height: 718
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 5089
+        y: 3067
+        width: 550
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.02002, y: 53.440002}
+        - {x: -81.02002, y: 32.440002}
+        - {x: -88.02002, y: 25.440002}
+        - {x: -88.02002, y: -21.559998}
+        - {x: -78.02002, y: -52.559998}
+        - {x: 42.97998, y: -52.559998}
+        - {x: 88.97998, y: -33.559998}
+        - {x: 88.97998, y: 38.440002}
+        - {x: 45.97998, y: 53.440002}
+    - name: UISpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 5733
+        y: 3011
+        width: 544
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.940063, y: 62.01996}
+        - {x: -86.94006, y: 42.01996}
+        - {x: -86.94006, y: -40.98004}
+        - {x: -81.94006, y: -51.98004}
+        - {x: -34.940063, y: -60.98004}
+        - {x: 64.05994, y: -60.98004}
+        - {x: 88.05994, y: -49.98004}
+        - {x: 88.05994, y: 57.01996}
+        - {x: 87.05994, y: 62.01996}
+    - name: UISpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2639
+        width: 287
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 2486
+        width: 575
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.100006, y: -31.980042}
+        - {x: 93.100006, y: 33.01996}
+        - {x: -91.899994, y: 33.01996}
+        - {x: -91.899994, y: -31.980042}
+    - name: UISpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 2508
+        width: 169
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.059998, y: 27.059998}
+        - {x: -27.059998, y: 26.059998}
+        - {x: -27.059998, y: -23.940002}
+        - {x: -24.059998, y: -25.940002}
+        - {x: 27.940002, y: -25.940002}
+        - {x: 27.940002, y: 26.059998}
+        - {x: 25.940002, y: 27.059998}
+    - name: UISpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2523
+        width: 216
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.359985, y: 33.359985}
+        - {x: -34.640015, y: 1.3599854}
+        - {x: -34.640015, y: -13.640015}
+        - {x: -24.640015, y: -32.640015}
+        - {x: -10.640015, y: -32.640015}
+        - {x: 35.359985, y: 27.359985}
+        - {x: 35.359985, y: 33.359985}
+    - name: UISpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 2527
+        width: 991
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -158.64001, y: 20.139954}
+        - {x: -158.64001, y: -11.860046}
+        - {x: -155.64001, y: -18.860046}
+        - {x: 152.35999, y: -18.860046}
+        - {x: 159.35999, y: -9.860046}
+        - {x: 159.35999, y: 20.139954}
+    - name: UISpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 5745
+        y: 2392
+        width: 544
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.100098, y: 75.44}
+        - {x: -64.1001, y: 69.44}
+        - {x: -87.1001, y: 39.440002}
+        - {x: -87.1001, y: -62.559998}
+        - {x: -37.100098, y: -74.56}
+        - {x: 64.8999, y: -74.56}
+        - {x: 87.8999, y: -62.559998}
+        - {x: 87.8999, y: 60.440002}
+        - {x: 31.899902, y: 75.44}
+    - name: UISpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 2433
+        width: 493
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 2508
+        width: 990
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -158.32, y: 20.059998}
+        - {x: -158.32, y: -12.940002}
+        - {x: -153.32, y: -18.940002}
+        - {x: 158.68, y: -18.940002}
+        - {x: 159.68, y: -16.940002}
+        - {x: 159.68, y: 20.059998}
+    - name: UISpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2070
+        width: 681
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -95.9, y: 30.399963}
+        - {x: -108.9, y: 26.399963}
+        - {x: -108.9, y: -25.600037}
+        - {x: -96.9, y: -29.600037}
+        - {x: 97.1, y: -29.600037}
+        - {x: 110.1, y: -19.600037}
+        - {x: 110.1, y: 17.399963}
+        - {x: 104.1, y: 30.399963}
+    - name: UISpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 2180
+        width: 318
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.940002, y: 18.599976}
+        - {x: -50.940002, y: -17.400024}
+        - {x: 52.059998, y: -17.400024}
+        - {x: 52.059998, y: 18.599976}
+    - name: UISpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2177
+        width: 87
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 2180
+        width: 338
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.02002, y: 17.599976}
+        - {x: -53.02002, y: 11.599976}
+        - {x: -54.02002, y: 8.599976}
+        - {x: -54.02002, y: -14.400024}
+        - {x: -52.02002, y: -16.400024}
+        - {x: 54.97998, y: -16.400024}
+        - {x: 54.97998, y: 13.599976}
+        - {x: 38.97998, y: 17.599976}
+      - - {x: -54.02002, y: 7.5999756}
+        - {x: -51.02002, y: 8.599976}
+        - {x: -51.02002, y: 14.599976}
+        - {x: -53.02002, y: 16.599976}
+        - {x: -54.02002, y: 16.599976}
+    - name: UISpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 2170
+        width: 397
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.48004, y: 18.399963}
+        - {x: -63.48004, y: -17.600037}
+        - {x: 64.51996, y: -17.600037}
+        - {x: 64.51996, y: 18.399963}
+    - name: UISpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 2167
+        width: 88
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 2774
+        y: 2170
+        width: 340
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.320007, y: 17.899963}
+        - {x: -54.320007, y: -17.100037}
+        - {x: 55.679993, y: -17.100037}
+        - {x: 55.679993, y: 14.899963}
+        - {x: 52.679993, y: 17.899963}
+      - - {x: -54.320007, y: 5.8999634}
+        - {x: -51.320007, y: 6.8999634}
+        - {x: -51.320007, y: 14.899963}
+        - {x: -53.320007, y: 16.899963}
+        - {x: -54.320007, y: 16.899963}
+    - name: UISpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 1892
+        width: 316
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.4799805, y: 75.94}
+        - {x: -10.52002, y: 75.94}
+        - {x: -50.52002, y: 4.9400024}
+        - {x: -50.52002, y: -38.059998}
+        - {x: -41.52002, y: -61.059998}
+        - {x: -11.52002, y: -75.06}
+        - {x: 11.47998, y: -75.06}
+        - {x: 41.47998, y: -62.059998}
+        - {x: 51.47998, y: -28.059998}
+        - {x: 51.47998, y: -4.0599976}
+        - {x: 38.47998, y: 29.940002}
+    - name: UISpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 4467
+        y: 1967
+        width: 253
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.560059, y: 45.940002}
+        - {x: -40.56006, y: -5.0599976}
+        - {x: -40.56006, y: -34.059998}
+        - {x: -31.560059, y: -45.059998}
+        - {x: 16.439941, y: -45.059998}
+        - {x: 41.43994, y: -20.059998}
+        - {x: 41.43994, y: 45.940002}
+    - name: UISpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 1942
+        width: 562
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -66.02002, y: 50.940002}
+        - {x: -90.02002, y: 35.940002}
+        - {x: -90.02002, y: -50.059998}
+        - {x: 90.97998, y: -50.059998}
+        - {x: 90.97998, y: 25.940002}
+        - {x: 59.97998, y: 50.940002}
+    - name: UISpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 2039
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.900024, y: 18.47998}
+        - {x: -16.900024, y: 14.47998}
+        - {x: -16.900024, y: -11.52002}
+        - {x: -11.900024, y: -17.52002}
+        - {x: 10.099976, y: -17.52002}
+        - {x: 18.099976, y: -14.52002}
+        - {x: 18.099976, y: 13.47998}
+        - {x: 11.099976, y: 18.47998}
+    - name: UISpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1977
+        width: 838
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1552
+        width: 637
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94.86, y: 46.639984}
+        - {x: -101.86, y: 25.639984}
+        - {x: -101.86, y: -26.360016}
+        - {x: -76.86, y: -45.360016}
+        - {x: 86.14, y: -45.360016}
+        - {x: 103.14, y: -31.360016}
+        - {x: 103.14, y: 25.639984}
+        - {x: 92.14, y: 46.639984}
+    - name: UISpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1702
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1701
+        width: 810
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127.48001, y: -3.6799927}
+        - {x: -127.48001, y: -28.679993}
+        - {x: -115.48001, y: -28.679993}
+        - {x: -112.48001, y: -27.679993}
+        - {x: -112.48001, y: -22.679993}
+        - {x: -121.48001, y: -3.6799927}
+      - - {x: 86.51999, y: 29.320007}
+        - {x: 73.51999, y: -11.679993}
+        - {x: 73.51999, y: -26.679993}
+        - {x: 75.51999, y: -28.679993}
+        - {x: 130.51999, y: -28.679993}
+        - {x: 130.51999, y: 11.320007}
+        - {x: 104.51999, y: 29.320007}
+    - name: UISpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1048
+        width: 675
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -88.06, y: 49.359985}
+        - {x: -108.06, y: 24.359985}
+        - {x: -108.06, y: -38.640015}
+        - {x: -104.06, y: -48.640015}
+        - {x: 97.94, y: -48.640015}
+        - {x: 108.94, y: -46.640015}
+        - {x: 108.94, y: 26.359985}
+        - {x: 91.94, y: 49.359985}
+    - name: UISpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 908
+        width: 619
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 99.899994, y: 61.559998}
+        - {x: 98.899994, y: 66.56}
+        - {x: 40.899994, y: 103.56}
+        - {x: -43.100006, y: 103.56}
+        - {x: -71.100006, y: 93.56}
+        - {x: -99.100006, y: 33.559998}
+        - {x: -99.100006, y: -23.440002}
+        - {x: -98.100006, y: -30.440002}
+        - {x: -85.100006, y: -66.44}
+        - {x: -37.100006, y: -102.44}
+        - {x: 42.899994, y: -102.44}
+        - {x: 94.899994, y: -60.440002}
+        - {x: 99.899994, y: -48.440002}
+    - name: UISpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 1020
+        width: 703
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.56, y: 11.399994}
+        - {x: 97.56, y: 56.399994}
+        - {x: 87.56, y: 101.399994}
+        - {x: 43.559998, y: 105.399994}
+        - {x: -33.440002, y: 105.399994}
+        - {x: -83.44, y: 99.399994}
+        - {x: -85.44, y: 97.399994}
+        - {x: -90.44, y: 70.399994}
+        - {x: -112.44, y: 12.399994}
+        - {x: -112.44, y: -54.600006}
+        - {x: -110.44, y: -67.600006}
+        - {x: -103.44, y: -104.600006}
+        - {x: 103.56, y: -104.600006}
+        - {x: 112.56, y: -92.600006}
+        - {x: 113.56, y: -50.600006}
+    - name: UISpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 1017
+        width: 703
+        height: 656
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 104.599976, y: -59.059998}
+        - {x: 113.599976, y: -31.059998}
+        - {x: 113.599976, y: 12.940002}
+        - {x: 90.599976, y: 103.94}
+        - {x: 42.599976, y: 105.94}
+        - {x: -40.400024, y: 105.94}
+        - {x: -82.400024, y: 98.94}
+        - {x: -85.400024, y: 95.94}
+        - {x: -112.400024, y: 16.940002}
+        - {x: -112.400024, y: -34.059998}
+        - {x: -101.400024, y: -101.06}
+        - {x: -97.400024, y: -105.06}
+        - {x: 106.599976, y: -105.06}
+        - {x: 109.599976, y: -93.06}
+        - {x: 109.599976, y: -72.06}
+    - name: UISpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 1020
+        width: 704
+        height: 653
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.359985, y: 11.399994}
+        - {x: 104.359985, y: 15.399994}
+        - {x: 87.359985, y: 100.399994}
+        - {x: 35.359985, y: 105.399994}
+        - {x: -44.640015, y: 105.399994}
+        - {x: -85.640015, y: 101.399994}
+        - {x: -112.640015, y: 12.399994}
+        - {x: -112.640015, y: -26.600006}
+        - {x: -99.640015, y: -49.600006}
+        - {x: -106.640015, y: -96.600006}
+        - {x: -101.640015, y: -104.600006}
+        - {x: 108.359985, y: -104.600006}
+        - {x: 111.359985, y: -101.600006}
+        - {x: 113.359985, y: -32.600006}
+    - name: UISpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 1020
+        width: 703
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.55994, y: -24.600006}
+        - {x: 113.55994, y: 13.399994}
+        - {x: 90.55994, y: 97.399994}
+        - {x: 38.559937, y: 106.399994}
+        - {x: -34.440063, y: 106.399994}
+        - {x: -83.44006, y: 99.399994}
+        - {x: -87.44006, y: 88.399994}
+        - {x: -112.44006, y: 11.399994}
+        - {x: -112.44006, y: -59.600006}
+        - {x: -110.44006, y: -75.600006}
+        - {x: -99.44006, y: -105.600006}
+        - {x: 107.55994, y: -105.600006}
+        - {x: 113.55994, y: -103.600006}
+        - {x: 107.55994, y: -33.600006}
+    - name: UISpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 5452
+        y: 1020
+        width: 703
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112.640015, y: 76.899994}
+        - {x: 110.640015, y: 85.899994}
+        - {x: 83.640015, y: 85.899994}
+        - {x: 80.640015, y: 80.899994}
+        - {x: -35.359985, y: 85.899994}
+        - {x: -106.359985, y: 85.899994}
+        - {x: -106.359985, y: 84.899994}
+        - {x: -112.359985, y: 35.899994}
+        - {x: -112.359985, y: -34.100006}
+        - {x: -107.359985, y: -74.100006}
+        - {x: -102.359985, y: -85.100006}
+        - {x: 104.640015, y: -85.100006}
+        - {x: 113.640015, y: -81.100006}
+        - {x: 113.640015, y: 68.899994}
+    - name: UISpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 853
+        width: 162
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 853
+        width: 53
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 853
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 853
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 885
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 853
+        width: 94
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 853
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 192
+        width: 809
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.04001, y: 85.44}
+        - {x: -117.04001, y: 64.44}
+        - {x: -115.04001, y: 61.440002}
+        - {x: -112.04001, y: 61.440002}
+        - {x: -109.04001, y: 62.440002}
+        - {x: -105.04001, y: 60.440002}
+        - {x: -108.04001, y: 61.440002}
+        - {x: -117.04001, y: 61.440002}
+        - {x: -117.04001, y: -55.559998}
+        - {x: -116.04001, y: -60.559998}
+        - {x: -98.04001, y: -84.56}
+        - {x: 122.95999, y: -84.56}
+        - {x: 130.95999, y: -14.559998}
+        - {x: 130.95999, y: 85.44}
+      - - {x: 116.95999, y: -30.559998}
+        - {x: 120.95999, y: -32.559998}
+        - {x: 123.95999, y: -30.559998}
+        - {x: 122.95999, y: -27.559998}
+        - {x: 117.95999, y: -25.559998}
+        - {x: 115.95999, y: -27.559998}
+      - - {x: -129.04001, y: 44.440002}
+        - {x: -128.04001, y: 41.440002}
+        - {x: -125.04001, y: 41.440002}
+        - {x: -123.04001, y: 43.440002}
+        - {x: -124.04001, y: 46.440002}
+        - {x: -127.04001, y: 46.440002}
+      - - {x: -129.04001, y: 81.44}
+        - {x: -128.04001, y: 80.44}
+        - {x: -125.04001, y: 81.44}
+        - {x: -125.04001, y: 84.44}
+        - {x: -128.04001, y: 85.44}
+        - {x: -129.04001, y: 84.44}
+    - name: UISpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 653
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UISpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 192
+        width: 703
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111.399994, y: -10.559998}
+        - {x: 113.399994, y: -2.5599976}
+        - {x: 113.399994, y: 67.44}
+        - {x: 109.399994, y: 82.44}
+        - {x: 107.399994, y: 85.44}
+        - {x: -105.600006, y: 85.44}
+        - {x: -112.600006, y: 37.440002}
+        - {x: -112.600006, y: -5.5599976}
+        - {x: -102.600006, y: -15.559998}
+        - {x: -107.600006, y: -84.56}
+        - {x: 109.399994, y: -84.56}
+        - {x: 113.399994, y: -83.56}
+        - {x: 113.399994, y: -27.559998}
+    - name: UISpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 2458
+        y: 192
+        width: 703
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110.56, y: 85.44}
+        - {x: 82.56, y: 85.44}
+        - {x: 81.56, y: 80.44}
+        - {x: -76.44, y: 84.44}
+        - {x: -78.44, y: 85.44}
+        - {x: -112.44, y: 85.44}
+        - {x: -112.44, y: -47.559998}
+        - {x: -108.44, y: -58.559998}
+        - {x: -100.44, y: -84.56}
+        - {x: 109.56, y: -84.56}
+        - {x: 113.56, y: -81.56}
+        - {x: 113.56, y: 66.44}
+    - name: UISpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 192
+        width: 703
+        height: 528
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.55994, y: 59.440002}
+        - {x: 111.55994, y: 85.44}
+        - {x: -103.44006, y: 85.44}
+        - {x: -112.44006, y: 49.440002}
+        - {x: -112.44006, y: -27.559998}
+        - {x: -109.44006, y: -55.559998}
+        - {x: -99.44006, y: -84.56}
+        - {x: 107.55994, y: -84.56}
+        - {x: 113.55994, y: -76.56}
+    - name: UISpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 255
+        width: 343
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.859985, y: 82.1}
+        - {x: -54.859985, y: 41.1}
+        - {x: -54.859985, y: -80.9}
+        - {x: 55.140015, y: -80.9}
+        - {x: 56.140015, y: -68.9}
+        - {x: 56.140015, y: 49.1}
+        - {x: 9.140015, y: 82.1}
+    - name: UISpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 5039
+        y: 264
+        width: 344
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.02002, y: -80.020004}
+        - {x: -53.02002, y: -81.020004}
+        - {x: 34.97998, y: -81.020004}
+        - {x: 55.97998, y: -59.020004}
+        - {x: 55.97998, y: 18.979996}
+        - {x: 9.97998, y: 81.979996}
+        - {x: -7.0200195, y: 81.979996}
+        - {x: -55.02002, y: 42.979996}
+    - name: UISpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 5602
+        y: 305
+        width: 309
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.640015, y: 74.1}
+        - {x: -6.3599854, y: 74.1}
+        - {x: -49.359985, y: 6.0999985}
+        - {x: -49.359985, y: -38.9}
+        - {x: -39.359985, y: -61.9}
+        - {x: -5.3599854, y: -72.9}
+        - {x: 5.6400146, y: -72.9}
+        - {x: 36.640015, y: -60.9}
+        - {x: 50.640015, y: -38.9}
+        - {x: 50.640015, y: 4.0999985}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
