@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e627b5bba6dda4dc4a47bde051b5068d
-timeCreated: 1472786190
+timeCreated: 1472851393
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -95,7 +95,7 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
+  textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
@@ -127,7 +127,7 @@ TextureImporter:
         width: 754
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_1
@@ -138,7 +138,7 @@ TextureImporter:
         width: 2681
         height: 1200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 428.94, y: -180.06006}
@@ -181,7 +181,7 @@ TextureImporter:
         width: 1666
         height: 1262
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 267.51996, y: 174.05994}
@@ -215,7 +215,7 @@ TextureImporter:
         width: 878
         height: 1075
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 134.52002, y: -154.14001}
@@ -254,7 +254,7 @@ TextureImporter:
         width: 415
         height: 537
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.359985, y: -38.02002}
@@ -274,7 +274,7 @@ TextureImporter:
         width: 375
         height: 360
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -53.100002, y: 58.359985}
@@ -294,7 +294,7 @@ TextureImporter:
         width: 387
         height: 397
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -61.98001, y: 64.400024}
@@ -311,7 +311,7 @@ TextureImporter:
         width: 203
         height: 219
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -32.559998, y: 35.97998}
@@ -326,7 +326,7 @@ TextureImporter:
         width: 550
         height: 294
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -65.86005, y: 48.02002}
@@ -346,7 +346,7 @@ TextureImporter:
         width: 787
         height: 282
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -105.97998, y: 45.900024}
@@ -366,7 +366,7 @@ TextureImporter:
         width: 166
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -3.6000366, y: 17.939941}
@@ -383,7 +383,7 @@ TextureImporter:
         width: 166
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -26.52002, y: 17.640015}
@@ -402,7 +402,7 @@ TextureImporter:
         width: 65
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_13
@@ -413,7 +413,7 @@ TextureImporter:
         width: 538
         height: 206
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -81.10004, y: 34.02002}
@@ -431,7 +431,7 @@ TextureImporter:
         width: 441
         height: 269
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.56006, y: 43.97998}
@@ -451,7 +451,7 @@ TextureImporter:
         width: 437
         height: 268
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -50.859985, y: 44.059937}
@@ -468,24 +468,28 @@ TextureImporter:
         serializedVersion: 2
         x: 249
         y: 2930
-        width: 593
-        height: 218
+        width: 875
+        height: 210
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 91.18, y: 3.0999756}
-        - {x: 89.18, y: -1.9000244}
-        - {x: 88.18, y: -4.9000244}
-        - {x: 88.18, y: -1.9000244}
-        - {x: 94.18, y: 9.099976}
-        - {x: 93.18, y: 18.099976}
-        - {x: 82.18, y: 36.099976}
-        - {x: -94.82, y: 36.099976}
-        - {x: -94.82, y: -34.900024}
-        - {x: 96.18, y: -34.900024}
-        - {x: 96.18, y: 6.0999756}
-        - {x: 95.18, y: 6.0999756}
+      - - {x: 99.17999, y: 29.599976}
+        - {x: 67.17999, y: 19.599976}
+        - {x: 58.179993, y: 16.599976}
+        - {x: 48.179993, y: 8.599976}
+        - {x: 44.179993, y: -0.4000244}
+        - {x: 43.179993, y: -3.4000244}
+        - {x: 43.179993, y: -0.4000244}
+        - {x: 49.179993, y: 10.599976}
+        - {x: 51.179993, y: 12.599976}
+        - {x: 40.179993, y: 34.599976}
+        - {x: -139.82, y: 34.599976}
+        - {x: -139.82, y: -33.400024}
+        - {x: 125.17999, y: -33.400024}
+        - {x: 128.18, y: -31.400024}
+        - {x: 128.18, y: 10.599976}
+        - {x: 119.17999, y: 34.599976}
     - name: UISpriteSheet_17
       rect:
         serializedVersion: 2
@@ -494,7 +498,7 @@ TextureImporter:
         width: 257
         height: 181
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 32.859985, y: -2.9000244}
@@ -521,17 +525,27 @@ TextureImporter:
         serializedVersion: 2
         x: 1439
         y: 2933
-        width: 1013
-        height: 215
+        width: 1741
+        height: 246
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -162.02002, y: 35.559998}
-        - {x: -162.02002, y: -34.440002}
-        - {x: 162.97998, y: -34.440002}
-        - {x: 162.97998, y: 21.559998}
-        - {x: 83.97998, y: 35.559998}
+      - - {x: -277.52002, y: 31.559998}
+        - {x: -278.52002, y: 30.559998}
+        - {x: -278.52002, y: -39.440002}
+        - {x: 47.47998, y: -39.440002}
+        - {x: 47.47998, y: 16.559998}
+        - {x: -38.52002, y: 31.559998}
+      - - {x: 145.47998, y: 30.559998}
+        - {x: 70.47998, y: 30.559998}
+        - {x: 60.47998, y: 20.559998}
+        - {x: 60.47998, y: -30.440002}
+        - {x: 70.47998, y: -39.440002}
+        - {x: 254.47998, y: -39.440002}
+        - {x: 265.47998, y: -34.440002}
+        - {x: 265.47998, y: 9.559998}
+        - {x: 263.47998, y: 15.559998}
     - name: UISpriteSheet_19
       rect:
         serializedVersion: 2
@@ -540,7 +554,7 @@ TextureImporter:
         width: 631
         height: 212
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -99.86005, y: 35.059998}
@@ -558,7 +572,7 @@ TextureImporter:
         width: 935
         height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -149.64001, y: 44.899963}
@@ -574,7 +588,7 @@ TextureImporter:
         width: 12
         height: 718
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_22
@@ -585,7 +599,7 @@ TextureImporter:
         width: 550
         height: 328
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -38.02002, y: 53.440002}
@@ -605,7 +619,7 @@ TextureImporter:
         width: 544
         height: 381
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -55.940063, y: 62.01996}
@@ -625,7 +639,7 @@ TextureImporter:
         width: 287
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_25
@@ -636,7 +650,7 @@ TextureImporter:
         width: 575
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 93.100006, y: -31.980042}
@@ -651,7 +665,7 @@ TextureImporter:
         width: 169
         height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -26.059998, y: 27.059998}
@@ -669,7 +683,7 @@ TextureImporter:
         width: 216
         height: 204
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 21.359985, y: 33.359985}
@@ -687,7 +701,7 @@ TextureImporter:
         width: 991
         height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -158.64001, y: 20.139954}
@@ -704,7 +718,7 @@ TextureImporter:
         width: 544
         height: 466
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -23.100098, y: 75.44}
@@ -724,7 +738,7 @@ TextureImporter:
         width: 493
         height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_31
@@ -735,7 +749,7 @@ TextureImporter:
         width: 990
         height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -158.32, y: 20.059998}
@@ -752,7 +766,7 @@ TextureImporter:
         width: 681
         height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -95.9, y: 30.399963}
@@ -768,16 +782,27 @@ TextureImporter:
         serializedVersion: 2
         x: 1183
         y: 2180
-        width: 318
-        height: 109
+        width: 823
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -50.940002, y: 18.599976}
-        - {x: -50.940002, y: -17.400024}
-        - {x: 52.059998, y: -17.400024}
-        - {x: 52.059998, y: 18.599976}
+      - - {x: -131.44, y: 17.599976}
+        - {x: -131.44, y: -19.400024}
+        - {x: -27.440002, y: -19.400024}
+        - {x: -27.440002, y: 16.599976}
+        - {x: -31.440002, y: 17.599976}
+      - - {x: 54.559998, y: 8.599976}
+        - {x: 42.559998, y: 7.5999756}
+        - {x: 42.559998, y: 16.599976}
+        - {x: -19.440002, y: 16.599976}
+        - {x: -21.440002, y: 13.599976}
+        - {x: -21.440002, y: -8.400024}
+        - {x: -12.440002, y: -19.400024}
+        - {x: 116.56, y: -19.400024}
+        - {x: 116.56, y: 2.5999756}
+        - {x: 108.56, y: 9.599976}
     - name: UISpriteSheet_34
       rect:
         serializedVersion: 2
@@ -786,7 +811,7 @@ TextureImporter:
         width: 87
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_35
@@ -797,7 +822,7 @@ TextureImporter:
         width: 338
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -45.02002, y: 17.599976}
@@ -821,7 +846,7 @@ TextureImporter:
         width: 397
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -63.48004, y: 18.399963}
@@ -836,30 +861,35 @@ TextureImporter:
         width: 88
         height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_38
       rect:
         serializedVersion: 2
-        x: 2774
+        x: 2246
         y: 2170
-        width: 340
-        height: 106
+        width: 868
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -54.320007, y: 17.899963}
-        - {x: -54.320007, y: -17.100037}
-        - {x: 55.679993, y: -17.100037}
-        - {x: 55.679993, y: 14.899963}
-        - {x: 52.679993, y: 17.899963}
-      - - {x: -54.320007, y: 5.8999634}
-        - {x: -51.320007, y: 6.8999634}
-        - {x: -51.320007, y: 14.899963}
-        - {x: -53.320007, y: 16.899963}
-        - {x: -54.320007, y: 16.899963}
+      - - {x: -133.78003, y: 14.399963}
+        - {x: -134.78003, y: 10.399963}
+        - {x: -134.78003, y: -22.600037}
+        - {x: -5.7800293, y: -22.600037}
+        - {x: -4.7800293, y: -17.600037}
+        - {x: -4.7800293, y: 7.3999634}
+        - {x: -12.780029, y: 14.399963}
+      - - {x: 133.21997, y: 5.3999634}
+        - {x: 113.21997, y: 13.399963}
+        - {x: 2.2199707, y: 13.399963}
+        - {x: 2.2199707, y: -16.600037}
+        - {x: 11.219971, y: -22.600037}
+        - {x: 136.21997, y: -22.600037}
+        - {x: 140.21997, y: -21.600037}
+        - {x: 140.21997, y: 0.39996338}
     - name: UISpriteSheet_39
       rect:
         serializedVersion: 2
@@ -868,7 +898,7 @@ TextureImporter:
         width: 316
         height: 469
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 3.4799805, y: 75.94}
@@ -890,7 +920,7 @@ TextureImporter:
         width: 253
         height: 281
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -22.560059, y: 45.940002}
@@ -908,7 +938,7 @@ TextureImporter:
         width: 562
         height: 313
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -66.02002, y: 50.940002}
@@ -925,7 +955,7 @@ TextureImporter:
         width: 106
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -10.900024, y: 18.47998}
@@ -944,7 +974,7 @@ TextureImporter:
         width: 838
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_44
@@ -955,7 +985,7 @@ TextureImporter:
         width: 637
         height: 284
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -94.86, y: 46.639984}
@@ -974,33 +1004,35 @@ TextureImporter:
         width: 38
         height: 71
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_46
       rect:
         serializedVersion: 2
-        x: 1136
-        y: 1701
-        width: 810
-        height: 180
+        x: 1112
+        y: 1705
+        width: 833
+        height: 190
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -127.48001, y: -3.6799927}
-        - {x: -127.48001, y: -28.679993}
-        - {x: -115.48001, y: -28.679993}
-        - {x: -112.48001, y: -27.679993}
-        - {x: -112.48001, y: -22.679993}
-        - {x: -121.48001, y: -3.6799927}
-      - - {x: 86.51999, y: 29.320007}
-        - {x: 73.51999, y: -11.679993}
-        - {x: 73.51999, y: -26.679993}
-        - {x: 75.51999, y: -28.679993}
-        - {x: 130.51999, y: -28.679993}
-        - {x: 130.51999, y: 11.320007}
-        - {x: 104.51999, y: 29.320007}
+      - - {x: -117.16, y: -6.4000244}
+        - {x: -119.16, y: -6.4000244}
+        - {x: -122.16, y: -7.4000244}
+        - {x: -123.16, y: -16.400024}
+        - {x: -123.16, y: -30.400024}
+        - {x: -110.16, y: -30.400024}
+        - {x: -108.16, y: -28.400024}
+        - {x: -108.16, y: -25.400024}
+      - - {x: 87.84, y: 26.599976}
+        - {x: 77.84, y: -11.400024}
+        - {x: 77.84, y: -29.400024}
+        - {x: 78.84, y: -30.400024}
+        - {x: 134.84, y: -30.400024}
+        - {x: 134.84, y: 12.599976}
+        - {x: 109.84, y: 26.599976}
     - name: UISpriteSheet_47
       rect:
         serializedVersion: 2
@@ -1009,7 +1041,7 @@ TextureImporter:
         width: 675
         height: 303
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -88.06, y: 49.359985}
@@ -1028,7 +1060,7 @@ TextureImporter:
         width: 619
         height: 640
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 99.899994, y: 61.559998}
@@ -1052,7 +1084,7 @@ TextureImporter:
         width: 703
         height: 653
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 113.56, y: 11.399994}
@@ -1078,7 +1110,7 @@ TextureImporter:
         width: 703
         height: 656
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 104.599976, y: -59.059998}
@@ -1104,7 +1136,7 @@ TextureImporter:
         width: 704
         height: 653
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 113.359985, y: 11.399994}
@@ -1129,7 +1161,7 @@ TextureImporter:
         width: 703
         height: 660
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 113.55994, y: -24.600006}
@@ -1154,7 +1186,7 @@ TextureImporter:
         width: 703
         height: 532
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 112.640015, y: 76.899994}
@@ -1179,7 +1211,7 @@ TextureImporter:
         width: 162
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_55
@@ -1190,7 +1222,7 @@ TextureImporter:
         width: 53
         height: 75
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_56
@@ -1201,7 +1233,7 @@ TextureImporter:
         width: 31
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_57
@@ -1212,7 +1244,7 @@ TextureImporter:
         width: 18
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_58
@@ -1223,7 +1255,7 @@ TextureImporter:
         width: 43
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_59
@@ -1234,7 +1266,7 @@ TextureImporter:
         width: 94
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_60
@@ -1245,7 +1277,7 @@ TextureImporter:
         width: 10
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_61
@@ -1256,7 +1288,7 @@ TextureImporter:
         width: 809
         height: 528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -117.04001, y: 85.44}
@@ -1299,7 +1331,7 @@ TextureImporter:
         width: 6
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: UISpriteSheet_63
@@ -1310,7 +1342,7 @@ TextureImporter:
         width: 703
         height: 528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 111.399994, y: -10.559998}
@@ -1334,7 +1366,7 @@ TextureImporter:
         width: 703
         height: 528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 110.56, y: 85.44}
@@ -1357,7 +1389,7 @@ TextureImporter:
         width: 703
         height: 528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 113.55994, y: 59.440002}
@@ -1377,7 +1409,7 @@ TextureImporter:
         width: 343
         height: 506
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -14.859985, y: 82.1}
@@ -1395,7 +1427,7 @@ TextureImporter:
         width: 344
         height: 506
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -55.02002, y: -80.020004}
@@ -1414,7 +1446,7 @@ TextureImporter:
         width: 309
         height: 456
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 14.640015, y: 74.1}
@@ -1430,5 +1462,5 @@ TextureImporter:
     outline: []
   spritePackingTag: 
   userData: 
-  assetBundleName: 
+  assetBundleName: uisprites
   assetBundleVariant: 
